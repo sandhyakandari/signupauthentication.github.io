@@ -1,0 +1,59 @@
+body{
+    font-family: 'Mulish', sans-serif;
+   background: #F8FAFC;
+   background-image: url("img/Rectangl1.svg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size:100vw;
+   background-position: bottom left;
+}
+
+h2{
+    color: #625BF7;
+}
+h3{
+    margin-top:5px;
+    font-size: 28px;
+}
+
+.profileimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ul {
+    list-style: none;
+    font-size:23px;
+    text-align: center;
+    padding:0px;
+
+}
+ul li{
+    margin-top:15px;
+}
+
+.userinfo{
+    background: white;
+    height: 500px;
+    border:2px solid black;
+     width:30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+#logout{
+    background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+
+    width:80%;
+    height:50px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
